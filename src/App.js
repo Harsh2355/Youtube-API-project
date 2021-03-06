@@ -51,14 +51,14 @@ class App extends React.Component{
                 <Grid item xs={12}>
                     <Grid container spacing={10}>
                         <Grid container className="header-container" >
-                        <Grid item xs={2} >
-                            <div className = 'youtube-img'>
-                                <MenuIcon style={{marginLeft:"10px"}}/> 
-                                <div className = 'youtube-icon'><YouTubeIcon style={{color: "red"}} /></div>
-                                <div className="youtube-title">
-                                    YouTube
+                            <Grid item xs={2} >
+                                <div className = 'youtube-img'>
+                                    <MenuIcon style={{marginLeft:"10px"}}/> 
+                                    <div className = 'youtube-icon'><YouTubeIcon style={{color: "red"}} /></div>
+                                    <div className="youtube-title">
+                                        YouTube
+                                    </div>
                                 </div>
-                            </div>
                         </Grid>
                         <Grid item xs={8}>
                             <SearchBar onSubmit={this.handleSubmit}/>
@@ -70,12 +70,12 @@ class App extends React.Component{
                         </Grid>
                         </Grid>
                         <Grid container className="video-container">
-                        <Grid item xs={7} className="displayed-video">
-                            <VideoDetails video={selectedVideo}/>
-                        </Grid>
-                        <Grid item xs={3.5} className="side-videos">
-                            <VideoList videolist={Videos} onClick={this.handleClick}/>
-                        </Grid>
+                            <Grid item xs={7} className="displayed-video">
+                                <VideoDetails video={selectedVideo}/>
+                            </Grid>
+                            <Grid item xs={3.5} className="side-videos">
+                                <VideoList videolist={Videos} onClick={this.handleClick}/>
+                            </Grid>
                         </Grid>
                     </Grid>
                 </Grid>

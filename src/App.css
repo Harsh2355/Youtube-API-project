@@ -1,4 +1,8 @@
 
+body {
+    margin: 0px;
+    padding: 0px;
+}
 
 #root{
     width:98%;
@@ -8,7 +12,55 @@ html{
     overflow-x: hidden;
 }
 
+.app-container {
+    margin: 20px !important;
+}
+
+.header-container {
+    background-color: #ffffff;
+}
+
+.youtube-img {
+    margin: 43px 0 0 20px;
+}
+
+.header-icon {
+    margin-top: 43px;
+    margin-left: 20px;
+}
 
 
+.youtube-icon {
+    position: absolute;
+    top: 23px;
+    left: 60px;
+}
 
+.youtube-title {
+    font-family: 'Anton', sans-serif;
+    font-size: 23px;
+    display: inline;
+    position: absolute;
+    top: 16px;
+    left: 85px
+}
 
+.video-container {
+    background-color: #f9f9f9;
+}
+
+.displayed-video {
+    margin-top: 30px !important;
+    margin-left: 50px !important;
+}
+
+.side-videos {
+    margin-left: 25px !important;
+    margin-top: 30px !important;
+    width: 30% !important;
+}
+
+.side-vid-box {
+    /* height: 92px !important; */
+    margin-bottom: 10px !important;
+}
